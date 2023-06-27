@@ -1,0 +1,86 @@
+table {
+    border-collapse: collapse;
+    margin: 20px auto;
+    width: 100%;
+  }
+  
+  thead tr {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  thead td {
+    font-weight: bold;
+    padding: 10px;
+    text-align: left;
+  }
+  tbody tr {
+    border-bottom: 1px solid #ddd;
+    background-color: #f5f5f5;
+  }
+  
+  tbody tr:hover {
+    background-color: #e9e9e9;
+  }
+  tbody td {
+    padding: 10px;
+    text-align: center;
+    vertical-align: middle;
+  }
+  
+  .img img {
+    display: block;
+    margin: 0 auto;
+    max-height: 150px;
+    max-width: 150px;
+  }
+  
+  .quantity {
+    font-weight: bold;
+  }
+  
+  .subtotal {
+    margin-top: 20px;
+  }
+  
+  .subtotal .text {
+    display: inline-block;
+    font-weight: bold;
+    margin-right: 20px;
+    font-size: 24px;
+  }
+  
+  .subtotal .price {
+    display: inline-block;
+    font-size: 24px;
+  }
+  
+  .buttons button {
+
+    font-size: 24px;
+    margin: 20px 0px;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .buttons button:hover {
+    background-color: #444;
+  }
+  .page-wrapper a{
+    text-decoration: none;
+    color: black;
+  }
+  .page-wrapper a:visited {
+    color: black;
+  }
+  .page-wrapper a:hover
+  {
+    color: red;
+  }
+  #item-name
+  {
+    font-size: 20px;
+    font-weight: bold;
+  }
